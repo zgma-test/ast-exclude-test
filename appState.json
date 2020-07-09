@@ -1,0 +1,200 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "f2e62542-4534-425e-8252-17d2f8f7b0cc": {
+        "id": "f2e62542-4534-425e-8252-17d2f8f7b0cc",
+        "parent": null,
+        "name": "Lambda1.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Lambda1.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "Lambda1"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInamepost",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1594284330396
+      },
+      "2d79d8cb-eb2e-469d-8d7c-71044e41fbce": {
+        "id": "2d79d8cb-eb2e-469d-8d7c-71044e41fbce",
+        "parent": null,
+        "name": "Lambda2.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Lambda2.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "Lambda2"
+        },
+        "triggers": [
+          {
+            "resourceName": "s3awsAmplifyHotspaces",
+            "config": {
+              "type": "s3:ObjectCreated:*",
+              "keyPrefix": "",
+              "keySuffix": ""
+            }
+          }
+        ],
+        "lastUpdated": 1594287344967
+      },
+      "99c02ab2-7ebd-45a7-9f54-17131e7356bd": {
+        "id": "99c02ab2-7ebd-45a7-9f54-17131e7356bd",
+        "parent": null,
+        "name": "util.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "util.js",
+        "lastUpdated": 1594284304006,
+        "cursor": {
+          "lineNumber": 2,
+          "column": 42
+        }
+      }
+    },
+    "openFiles": [],
+    "currentFileId": "99c02ab2-7ebd-45a7-9f54-17131e7356bd",
+    "resources": {
+      "apigusEast1sachithraAPInamepost": {
+        "name": "apigusEast1sachithraAPInamepost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiType": 1,
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "zrjp6rdv3b",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "lm0elf",
+          "mode": 1
+        }
+      },
+      "ddbMFTGMessageTestData": {
+        "name": "ddbMFTGMessageTestData",
+        "type": "DynamoDB",
+        "config": {
+          "mode": 1,
+          "table": {
+            "arn": "arn:aws:dynamodb:us-east-1:318300609668:table/MFTGMessageTestData",
+            "name": "MFTGMessageTestData",
+            "partitionKey": "message_id",
+            "partitionKeyType": "N",
+            "hasSortKey": true,
+            "sortKey": "tenant_id",
+            "sortKeyType": "N",
+            "payPerRequest": true,
+            "mode": 1
+          }
+        }
+      },
+      "s3awsAmplifyHotspaces": {
+        "name": "s3awsAmplifyHotspaces",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "aws-amplify-hotspaces"
+          }
+        }
+      },
+      "snsusEast1MyNotificationTopic": {
+        "name": "snsusEast1MyNotificationTopic",
+        "type": "SNS",
+        "config": {
+          "topicMode": 1,
+          "topicName": "MyNotificationTopic",
+          "topicArn": "arn:aws:sns:us-east-1:318300609668:MyNotificationTopic",
+          "topicRegion": "us-east-1",
+          "snsType": 0,
+          "subscriptions": []
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.2",
+    "projectName": "ASTExcludeTest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1594287351095
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "ast-exclude-test",
+      "url": "https://github.com/zgma-test/ast-exclude-test"
+    }
+  }
+}
