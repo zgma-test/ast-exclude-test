@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "Lambda1.js",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 10,
+          "column": 21
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -28,7 +28,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1594284330396
+        "lastUpdated": 1594292464340
       },
       "2d79d8cb-eb2e-469d-8d7c-71044e41fbce": {
         "id": "2d79d8cb-eb2e-469d-8d7c-71044e41fbce",
@@ -61,7 +61,7 @@
             }
           }
         ],
-        "lastUpdated": 1594287344967
+        "lastUpdated": 1594292214391
       },
       "99c02ab2-7ebd-45a7-9f54-17131e7356bd": {
         "id": "99c02ab2-7ebd-45a7-9f54-17131e7356bd",
@@ -72,7 +72,22 @@
         "children": [],
         "isRemovable": true,
         "filePath": "util.js",
-        "lastUpdated": 1594284304006,
+        "lastUpdated": 1594357250560,
+        "cursor": {
+          "lineNumber": 1,
+          "column": 34
+        }
+      },
+      "19240bf3-dad8-442c-9f19-46d467f748fa": {
+        "id": "19240bf3-dad8-442c-9f19-46d467f748fa",
+        "parent": null,
+        "name": "util2.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "util2.js",
+        "lastUpdated": 1594357218530,
         "cursor": {
           "lineNumber": 2,
           "column": 42
@@ -154,7 +169,7 @@
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
@@ -188,7 +203,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1594287351095
+    "lastSave": 1594357417588
   },
   "VCS_STATE": {
     "provider": "GitHub",

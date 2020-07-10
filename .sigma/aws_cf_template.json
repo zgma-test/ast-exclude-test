@@ -406,7 +406,7 @@
         ]
       }
     },
-    "apigsachithraAPInameDeployment1594287372482": {
+    "apigsachithraAPInameDeployment1594357423632": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "052p9kjn18",
